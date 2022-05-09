@@ -39,10 +39,12 @@ public class Program {
 					captured.add(capturedPiece);
 				}
 			}
+			
 			catch (ChessException e) {
 				System.out.println(e.getMessage());
 				sc.nextLine();
 			}
+			
 			catch (InputMismatchException e) {
 				System.out.println(e.getMessage());
 				sc.nextLine();
